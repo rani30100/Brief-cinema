@@ -34,6 +34,7 @@ async function getData() {
   for (let i = 0; i < films.length; i++) {
     const film = films[i];
     const card = createCard(film);
+    card.style.order = i;
     films[i].element = card;
     container.append(card);
   }
@@ -131,37 +132,26 @@ function searching(event) {
 const sort = document.querySelector('select');
 const alphaOrder = document.querySelectorAll('option')[1];
 
-alphaOrder.addEventListener('click', sortAlpha);
-console.log('test')
+// alphaOrder.addEventListener('click', sortAlpha);
+
+sort.addEventListener("change", function (e) {
+  console.log(sort.value);
+  sortBy(data.films, sort.value);
+})
 
 function sortBy(arr, key) {
-  return Array.from(arr).sort((a, b) => a[key].toString().localeCompare(b[key]))
+  const sortedFilms = Array.from(arr).sort((film1, film2) => 
+    film1[key].toString().localeCompare(film2[key], "fr", { numeric: true })
+  );
+  console.log(sortedFilms);
+  sortedFilms.forEach((film, index) => film.element.style.order = index);
 }
 
-function sortAlpha() {
-  console.log("clicked")
-  let sortedFilms = Array.from(data.films);
-  sortedFilms.sort((film1, film2) => film1.title.charAt(0).localeCompare(film2.title));
-
-}
-
- // ------------------------------------------
- var items = ["réservé", "premier", "cliché", "communiqué", "café" ,"adieu"];
- items.sort(function (a, b) {
-   return a.localeCompare(b);
- });
-//--------------------------------------------------------------------------------------
-
-
-
-        // code de rani barre de recherche
-// function searching() {
-//     const search = document.getElementById("search").value;
-//     if (search === "MAMAN J'AI LE FEU AU CUL"){
-        
-//     }
-    
-    
+// function sortAlpha() {
+//   console.log("clicked")
+//   let sortedFilms = Array.from(data.films);
+//   sortedFilms.sort((film1, film2) => film1.title.localeCompare(film2.title));
+//   sortedFilms.forEach((film, index) => {film.element.style.order = index;});
 // }
 
 function timeToString(minutes) {

@@ -32,29 +32,22 @@
     </header>
 
     <div class="container">
-      <h2 class="text-center mt-4">HISTORIQUE_DES_FILMS</h2>
+      <h2 class="text-center mt-4 text-white">HISTORIQUE_DES_FILMS</h2> 
 
-      <div class="input-group mt-4">
-        <div class="form-outline">
+      <div class="input-group my-4">
           <input
             type="search"
             id="search"
             class="form-control"
-            placeholder="Rechercher un film..." onchange="search()"
-          />
+            placeholder="Rechercher un film..." onchange="search()"/>
           <select class="form-select">
             <option value="">Trier...</option>
-            <option value="title">Ordre Alphabétique</option>
+            <option value="title">Titre</option>
             <option value="yearOfProduction">Date de sortie</option>
           </select>
-          <button onclick="sortingTable()">Sort</button>
-          <label class="form-label" for="form1"></label>
-        </div>
-        <button type="button" class="btn"></button>
+          <button class="btn btn-secondary" onclick="sortingTable()">⬍</button>
       </div>
-      <main
-        class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-around"
-      >
+      <main class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-around">
         <!-- <div class="col">
           <article class="card h-100">
             <img

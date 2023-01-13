@@ -3,6 +3,11 @@
     src: url('/fonts/Showtime.ttf') format('truetype')
 }
 
+body {
+    background: rgb(146, 80, 82);
+  background: linear-gradient(90deg, rgba(180,5,12,1) 0%, rgba(109,9,23,1) 30%, rgba(103,9,24,1) 50%, rgba(117,12,27,1) 70%, rgba(219,35,45,1) 100%);
+}
+
 .background-lander {
     width: 100%;
     height: calc(100vh - 60px);
@@ -21,6 +26,10 @@
     list-style: none;
 }
 
+/* h2 .text-center.mt-4 {
+    font-size: calc(2rem + .9vw);
+} */
+
 h1, h2 {
     font-family: 'Showtime', sans-serif;
 }
@@ -38,4 +47,8 @@ h1, h2 {
     background-size: cover;
     height: 200px;
 } */
+
+body{ 
+    background-color: bisque;
+}
 
