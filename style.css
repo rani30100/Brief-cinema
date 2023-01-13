@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Showtime';
+    src: url('/fonts/Showtime.ttf') format('truetype')
+}
+
+.background-lander {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-image: url("images/salle.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+@media screen and (max-width: 720px) {
+    .background-lander {
+        height: 50vh;
+    }
+}
+
+* {
+    list-style: none;
+}
+
+h1, h2 {
+    font-family: 'Showtime', sans-serif;
+}
+
+.emoji {
+    font-family: 'Noto Color Emoji', sans-serif;
+}
+    
+
+/* .card-text {
+    padding-left: 0;
+} */
+/* header{
+    background-image:url("salle-cinema-photo-parue-1er-decembre_0_1181_787.jpg");
+    background-size: cover;
+    height: 200px;
+} */
+

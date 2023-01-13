@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr-fr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cinema JSON</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Faster+One"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet"> 
+  </head>
+
+  <body>
+    <header>
+      <div class="navbar navbar-light bg-light">
+        <div class="container-fluid" style="justify-content: center">
+          <h1 class="navbar-brand">
+            <img class="d-inline-block align-text-top" src="images/logo.png" height="26" alt=""  />
+            Cinema_JSON
+          </h1>
+        </div>
+      </div>
+      <div class="background-lander"></div>
+    </header>
+
+    <div class="container">
+      <h2 class="text-center mt-4">HISTORIQUE_DES_FILMS</h2>
+
+      <div class="input-group mt-4">
+        <div class="form-outline">
+          <input
+            type="search"
+            id="search"
+            class="form-control"
+            placeholder="Rechercher un film..." onchange="search()"
+          />
+          <select class="form-select">
+            <option value="">Trier...</option>
+            <option value="title">Ordre Alphabétique</option>
+            <option value="yearOfProduction">Date de sortie</option>
+          </select>
+          <button onclick="sortingTable()">Sort</button>
+          <label class="form-label" for="form1"></label>
+        </div>
+        <button type="button" class="btn"></button>
+      </div>
+      <main
+        class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-around"
+      >
+        <!-- <div class="col">
+          <article class="card h-100">
+            <img
+              class="card-img-top px-3"
+              src="https://fr.web.img4.acsta.net/pictures/19/08/29/09/20/1546400.jpg"
+            />
+            <div class="card-body">
+              <h3 class="text-center">Funny joke</h2>
+              <h4>Informations</h3>
+              <ul class="ps-0 card-text">
+                <li>Durée: 2h02</li>
+                <li>Réalisateur: Todd Phillips</li>
+                <li>Année: 2019</li>
+                <li>Festivals:</li>
+                <li class="d-flex">
+                  Acteurs :
+                  <ul>
+                    <li class="d-flex">
+                      <span class="me-3">Joaquin Phoenix</span
+                      ><span class="ms-auto">🇺🇸</span>
+                    </li>
+                    <li class="d-flex">
+                      <span class="me-3">Robert De Niro</span
+                      ><span class="ms-auto">🇺🇸</span>
+                    </li>
+                    <li class="d-flex">
+                      <span class="me-3">Zazie Beetz</span>
+                      <span class="ms-auto">🇩🇪</span>
+                    </li>
+                    <li class="d-flex">
+                      <span class="me-3">Frances Conroy</span
+                      ><span class="ms-auto">🇺🇸</span>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </article>
+        </div> -->
+      </main>
+    </div>
+
+    <table class="table" id="sortTable"></table>
+
+    <script src="films.js"></script>
+  </body>
+</html>
