@@ -15,6 +15,9 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap" rel="stylesheet"> 
   </head>
 
@@ -23,16 +26,17 @@
       <div class="navbar navbar-light bg-light">
         <div class="container-fluid" style="justify-content: center">
           <h1 class="navbar-brand">
-            <img class="d-inline-block align-text-top" src="images/logo.png" height="26" alt=""  />
+            <img class="d-inline-block align-text-top" src="images/logo.png" height="30" alt=""  />
             Cinema_JSON
           </h1>
         </div>
       </div>
+     
       <div class="background-lander"></div>
     </header>
-
-    <div class="container">
-      <h2 class="text-center mt-4 text-white">HISTORIQUE_DES_FILMS</h2> 
+ 
+    <div id="up" class="container">
+      <h2  class="text-center mt-4 text-white">HISTORIQUE_DES_FILMS</h2> 
 
       <div class="input-group my-4">
           <input
@@ -40,14 +44,19 @@
             id="search"
             class="form-control"
             placeholder="Rechercher un film..." onchange="search()"/>
-          <select class="form-select">
+          <select id="sort" class="form-select">
             <option value="">Trier...</option>
             <option value="title">Titre</option>
             <option value="yearOfProduction">Date de sortie</option>
           </select>
-          <button class="btn btn-secondary" onclick="sortingTable()">⬍</button>
+          <button id="btnReverse" class="btn btn-secondary" >⬍</button>
       </div>
-      <main class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-around">
+      
+      <div id= "btnUp" class="returnUp ms-auto me-3">
+        <a href="#up"><i class="fa-solid fa-angle-up"></i></a>
+      </div>
+
+      <main id ="ligne" class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 justify-content-around">
         <!-- <div class="col">
           <article class="card h-100">
             <img
@@ -88,9 +97,8 @@
           </article>
         </div> -->
       </main>
+      <div class="intersection-watcher"></div>
     </div>
-
-    <table class="table" id="sortTable"></table>
 
     <script src="films.js"></script>
   </body>

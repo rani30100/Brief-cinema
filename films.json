@@ -1,15 +1,17 @@
 {
   "briefName": "Historique des Films",
-
   "films": [
     {
       "image": "images/chaleur.jpg",
-      "title": "Fifty shades of Black",
+      "title": "Insidious",
       "director": "Rani Derradj ",
       "duration": 92,
-
       "yearOfProduction": "2000",
-      "festivals": ["Radiation resistance", "Turning tiny", "Radiation blast"],
+      "festivals": [
+        "Afraid Festival",
+        "Turning tiny",
+        "Radiation blast"
+      ],
       "actors": [
         {
           "firstName": "Brad ",
@@ -34,7 +36,319 @@
         {
           "firstName": "Mehdi",
           "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "images/908308_poster_scale_480x640.jpg",
+      "title": "Avatar, La Voie de l'eau ",
+      "director": "Simplon director",
+      "duration": 192,
+      "yearOfProduction": "2023",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
           "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "images/loups.jpeg",
+      "title": "Le Territoire des Loups",
+      "director": "Manu le bosseur",
+      "duration": 117,
+      "yearOfProduction": "2015",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "images/tenet.jpg",
+      "title": "Tenet",
+      "director": "Simplon director",
+      "duration": 150,
+      "yearOfProduction": "2019",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "/images/John Wick.jpg",
+      "title": "John Wick",
+      "director": "Simplon director",
+      "duration": 101,
+      "yearOfProduction": "2012",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "/images/divergent.jpeg",
+      "title": "Divergent",
+      "director": "Tikki Takak",
+      "duration": 139,
+      "yearOfProduction": "2019",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "/images/le bal.jpg",
+      "title": "Le bal",
+      "director": "Simplon director",
+      "duration": 104,
+      "yearOfProduction": "2020",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "/images/dr dolittle.jpg",
+      "title": "Dr Dolittle",
+      "director": "Simplon director",
+      "duration": 110,
+      "yearOfProduction": "2018",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "images/tarzan.jpg",
+      "title": "Tarzan",
+      "director": "Le père de Tarzan",
+      "duration": 110,
+      "yearOfProduction": "2016",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
         }
       ]
     },
@@ -43,8 +357,7 @@
       "title": "Pan",
       "director": "Simplon director",
       "duration": 115,
-
-      "yearOfProduction": "2023",
+      "yearOfProduction": "2017",
       "festivals": [
         "Festival de la Jouvence",
         "AlesCountryClub",
@@ -74,23 +387,26 @@
         {
           "firstName": "Mehdi",
           "lastName": "Yansli",
-          "nationality": "Française"
+          "nationality": "Algerienne"
         }
       ]
     },
     {
-      "image": "images/loups.jpeg",
-      "title": "Le Territoire des Loups",
-      "director": "Manu le bosseur",
-      "duration": 117,
-
+      "image": "images/chaleur.jpg",
+      "title": "Fifty shades of Black",
+      "director": "Rani Derradj ",
+      "duration": 92,
       "yearOfProduction": "2000",
-      "festivals": ["Radiation resistance", "Turning tiny", "Radiation blast"],
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
       "actors": [
         {
-          "firstName": "Doline ",
-          "lastName": "Nadobny",
-          "nationality": "Canadienne"
+          "firstName": "Brad ",
+          "lastName": "Pitt",
+          "nationality": "Américaine"
         },
         {
           "firstName": "Rani ",
@@ -110,222 +426,7 @@
         {
           "firstName": "Mehdi",
           "lastName": "Yansli",
-          "nationality": "Française"
-        }
-      ]
-    },
-    {
-      "image": "images/tenet.jpg",
-      "title": "Tenet",
-      "director": "Simplon director",
-      "duration": 150,
-
-      "yearOfProduction": "2000",
-      "festivals": ["Radiation resistance", "Turning tiny", "Radiation blast"],
-      "actors": [
-        {
-          "firstName": "Doline ",
-          "lastName": "Nadobny",
-          "nationality": "Canadienne"
-        },
-        {
-          "firstName": "Rani ",
-          "lastName": "Derradj",
-          "nationality": "Américaine"
-        },
-        {
-          "firstName": "Nesami",
-          "lastName": "Haiiro",
-          "nationality": "Japonaise"
-        },
-        {
-          "firstName": "Steph",
-          "lastName": "Laguerriere",
-          "nationality": "Française"
-        },
-        {
-          "firstName": "Mehdi",
-          "lastName": "Yansli",
-          "nationality": "Française"
-        }
-      ]
-    },
-    {
-      "image": "/images/John Wick.jpg",
-      "title": "John Wick",
-      "director": "Simplon director",
-      "duration": 101,
-
-      "yearOfProduction": "2000",
-      "festivals": ["Radiation resistance", "Turning tiny", "Radiation blast"],
-      "actors": [
-        {
-          "firstName": "Doline ",
-          "lastName": "Nadobny",
-          "nationality": "Canadienne"
-        },
-        {
-          "firstName": "Rani ",
-          "lastName": "Derradj",
-          "nationality": "Américaine"
-        },
-        {
-          "firstName": "Nesami",
-          "lastName": "Haiiro",
-          "nationality": "Japonaise"
-        },
-        {
-          "firstName": "Steph",
-          "lastName": "Laguerriere",
-          "nationality": "Française"
-        },
-        {
-          "firstName": "Mehdi",
-          "lastName": "Yansli",
-          "nationality": "Française"
-        }
-      ]
-    },
-    {
-      "image": "/images/le bal.jpg",
-      "title": "Le bal",
-      "director": "Simplon director",
-      "duration": 104,
-
-      "yearOfProduction": "2000",
-      "festivals": ["Radiation resistance", "Turning tiny", "Radiation blast"],
-      "actors": [
-        {
-          "firstName": "Doline ",
-          "lastName": "Nadobny",
-          "nationality": "Canadienne"
-        },
-        {
-          "firstName": "Rani ",
-          "lastName": "Derradj",
-          "nationality": "Américaine"
-        },
-        {
-          "firstName": "Nesami",
-          "lastName": "Haiiro",
-          "nationality": "Japonaise"
-        },
-        {
-          "firstName": "Steph",
-          "lastName": "Laguerriere",
-          "nationality": "Française"
-        },
-        {
-          "firstName": "Mehdi",
-          "lastName": "Yansli",
-          "nationality": "Française"
-        }
-      ]
-    },
-    {
-      "image": "/images/dr dolittle.jpg",
-      "title": "Dr Dolittle",
-      "director": "Simplon director",
-      "duration": 110,
-      "yearOfProduction": "2000",
-      "festivals": ["Radiation resistance", "Turning tiny", "Radiation blast"],
-      "actors": [
-        {
-          "firstName": "Doline ",
-          "lastName": "Nadobny",
-          "nationality": "Canadienne"
-        },
-        {
-          "firstName": "Rani ",
-          "lastName": "Derradj",
-          "nationality": "Américaine"
-        },
-        {
-          "firstName": "Nesami",
-          "lastName": "Haiiro",
-          "nationality": "Japonaise"
-        },
-        {
-          "firstName": "Steph",
-          "lastName": "Laguerriere",
-          "nationality": "Française"
-        },
-        {
-          "firstName": "Mehdi",
-          "lastName": "Yansli",
-          "nationality": "Française"
-        }
-      ]
-    },
-    {
-      "image": "/images/divergent.jpeg",
-      "title": "Divergent",
-      "director": "Tikki Takak",
-      "duration": 139,
-
-      "yearOfProduction": "2000",
-      "festivals": ["Radiation resistance", "Turning tiny", "Radiation blast"],
-      "actors": [
-        {
-          "firstName": "Doline ",
-          "lastName": "Nadobny",
-          "nationality": "Canadienne"
-        },
-        {
-          "firstName": "Rani ",
-          "lastName": "Derradj",
-          "nationality": "Américaine"
-        },
-        {
-          "firstName": "Nesami",
-          "lastName": "Haiiro",
-          "nationality": "Japonaise"
-        },
-        {
-          "firstName": "Steph",
-          "lastName": "Laguerriere",
-          "nationality": "Française"
-        },
-        {
-          "firstName": "Mehdi",
-          "lastName": "Yansli",
-          "nationality": "Française"
-        }
-      ]
-    },
-    {
-      "image": "images/tarzan.jpg",
-      "title": "Tarzan",
-      "director": "Le père de Tarzan",
-      "duration": 110,
-
-      "yearOfProduction": "2000",
-      "festivals": ["Radiation resistance", "Turning tiny", "Radiation blast"],
-      "actors": [
-        {
-          "firstName": "Doline ",
-          "lastName": "Nadobny",
-          "nationality": "Canadienne"
-        },
-        {
-          "firstName": "Rani ",
-          "lastName": "Derradj",
-          "nationality": "Américaine"
-        },
-        {
-          "firstName": "Nesami",
-          "lastName": "Haiiro",
-          "nationality": "Japonaise"
-        },
-        {
-          "firstName": "Steph",
-          "lastName": "Laguerriere",
-          "nationality": "Française"
-        },
-        {
-          "firstName": "Mehdi",
-          "lastName": "Yansli",
-          "nationality": "Française"
+          "nationality": "Algerienne"
         }
       ]
     },
@@ -334,8 +435,12 @@
       "title": "Avatar, La Voie de l'eau ",
       "director": "Simplon director",
       "duration": 192,
-      "yearOfProduction": "2000",
-      "festivals": ["Radiation resistance", "Turning tiny", "Radiation blast"],
+      "yearOfProduction": "2023",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
       "actors": [
         {
           "firstName": "Doline ",
@@ -360,7 +465,709 @@
         {
           "firstName": "Mehdi",
           "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "images/loups.jpeg",
+      "title": "Le Territoire des Loups",
+      "director": "Manu le bosseur",
+      "duration": 117,
+      "yearOfProduction": "2015",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
           "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "images/tenet.jpg",
+      "title": "Tenet",
+      "director": "Simplon director",
+      "duration": 150,
+      "yearOfProduction": "2019",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "/images/John Wick.jpg",
+      "title": "John Wick",
+      "director": "Simplon director",
+      "duration": 101,
+      "yearOfProduction": "2012",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "/images/divergent.jpeg",
+      "title": "Divergent",
+      "director": "Tikki Takak",
+      "duration": 139,
+      "yearOfProduction": "2019",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "/images/le bal.jpg",
+      "title": "Le bal",
+      "director": "Simplon director",
+      "duration": 104,
+      "yearOfProduction": "2020",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "/images/dr dolittle.jpg",
+      "title": "Dr Dolittle",
+      "director": "Simplon director",
+      "duration": 110,
+      "yearOfProduction": "2018",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "images/tarzan.jpg",
+      "title": "Tarzan",
+      "director": "Le père de Tarzan",
+      "duration": 110,
+      "yearOfProduction": "2016",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "https://fr.web.img3.acsta.net/pictures/15/09/02/15/14/306583.jpg",
+      "title": "Pan",
+      "director": "Simplon director",
+      "duration": 115,
+      "yearOfProduction": "2017",
+      "festivals": [
+        "Festival de la Jouvence",
+        "AlesCountryClub",
+        "Le Festival des Fetards"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "images/chaleur.jpg",
+      "title": "Fifty shades of Black",
+      "director": "Rani Derradj ",
+      "duration": 92,
+      "yearOfProduction": "2000",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Brad ",
+          "lastName": "Pitt",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "images/908308_poster_scale_480x640.jpg",
+      "title": "Avatar, La Voie de l'eau ",
+      "director": "Simplon director",
+      "duration": 192,
+      "yearOfProduction": "2023",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "images/loups.jpeg",
+      "title": "Le Territoire des Loups",
+      "director": "Manu le bosseur",
+      "duration": 117,
+      "yearOfProduction": "2015",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "images/tenet.jpg",
+      "title": "Tenet",
+      "director": "Simplon director",
+      "duration": 150,
+      "yearOfProduction": "2019",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "/images/John Wick.jpg",
+      "title": "John Wick",
+      "director": "Simplon director",
+      "duration": 101,
+      "yearOfProduction": "2012",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "/images/divergent.jpeg",
+      "title": "Divergent",
+      "director": "Tikki Takak",
+      "duration": 139,
+      "yearOfProduction": "2019",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "/images/le bal.jpg",
+      "title": "Le bal",
+      "director": "Simplon director",
+      "duration": 104,
+      "yearOfProduction": "2020",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "/images/dr dolittle.jpg",
+      "title": "Dr Dolittle",
+      "director": "Simplon director",
+      "duration": 110,
+      "yearOfProduction": "2018",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "images/tarzan.jpg",
+      "title": "Tarzan",
+      "director": "Le père de Tarzan",
+      "duration": 110,
+      "yearOfProduction": "2016",
+      "festivals": [
+        "Radiation resistance",
+        "Turning tiny",
+        "Radiation blast"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
+        }
+      ]
+    },
+    {
+      "image": "https://fr.web.img3.acsta.net/pictures/15/09/02/15/14/306583.jpg",
+      "title": "Pan",
+      "director": "Simplon director",
+      "duration": 115,
+      "yearOfProduction": "2017",
+      "festivals": [
+        "Festival de la Jouvence",
+        "AlesCountryClub",
+        "Le Festival des Fetards"
+      ],
+      "actors": [
+        {
+          "firstName": "Doline ",
+          "lastName": "Nadobny",
+          "nationality": "Canadienne"
+        },
+        {
+          "firstName": "Rani ",
+          "lastName": "Derradj",
+          "nationality": "Américaine"
+        },
+        {
+          "firstName": "Nesami",
+          "lastName": "Haiiro",
+          "nationality": "Japonaise"
+        },
+        {
+          "firstName": "Steph",
+          "lastName": "Laguerriere",
+          "nationality": "Française"
+        },
+        {
+          "firstName": "Mehdi",
+          "lastName": "Yansli",
+          "nationality": "Algerienne"
         }
       ]
     }

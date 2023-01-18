@@ -4,47 +4,85 @@ const flags = {
   Française: "🇫🇷",
   Japonaise: "🇯🇵",
   Canadienne: "🇨🇦",
+  Algerienne: "🇩🇿",
 };
 
-// Recuperation des pieces depuis le fichier JSON
+// VARIABLE tri inverse()
+let sortOrder = 1; // une valeur negative correspond a un tri inverse
+let displayEnd = 0;
+
 const header = document.querySelector("header");
 const container = document.querySelector("main");
+const buttonReverse = document.getElementById('btnReverse');
+buttonReverse.style.width = '3%';
+buttonReverse.style.height = '50px';
 
-let data = {};
+
+const search = document.getElementById("search");
+search.addEventListener('input', filterAndSort);
+search.style.width = '70%';
+
+const sort = document.querySelector('#sort');
+sort.addEventListener("change", filterAndSort);
+sort.style.width = '20%';
+
+let data = {
+  films:[],
+  sorted:[],
+};
 getData();
 
 
+// Recuperation des pieces depuis le fichier JSON
 async function getData() {
   const reponse = await fetch("films.json");
   data = await reponse.json();
   /**
    * @type {array}
-   *  */
-  const films = data.films;
+   */
+  let films = data.films;
+  data.sorted = films;
+  filterAndSort(); // permet de gerer le tri si il a été fait avant le chargement de la page
 
-  // On cree une variable article faisant reference aux 1er objet sur json //
   // on cree un seul film ici 
-
+  // On cree une variable article faisant reference aux 1er objet sur json //
   //   const film = films[0];
   //   const card = createCard(film);
   //   container.append(card);
-  
-  // ----------------------------------------------------------------------//
-// On cree la boucle 
+}
+
+function createCards(films) {
   for (let i = 0; i < films.length; i++) {
     const film = films[i];
     const card = createCard(film);
-    card.style.order = i;
     films[i].element = card;
     container.append(card);
   }
 }
 
+function displayMore() {
+  const displayStart = displayEnd; 
+  displayEnd += 6;
+  let newItems = data.sorted.slice(displayStart, displayEnd);
+  createCards(newItems);
+}
+
+function filterAndSort() {
+  const filtered = filterBy(data.films, search.value);
+  const sorted = sortBy(filtered, sort.value);
+
+  data.sorted = sorted;
+
+  container.innerHTML = ""; // Clears the currently displayed items;
+  
+  displayEnd = 0;
+  displayMore();
+}
 //Creation de la fonction pour creer les cartes des films
 function createCard(film) {
     // je cree un document image contenant l'affiche du film
   const imageElement = document.createElement("img");
-  imageElement.style.height = '500px'
+  // imageElement.style.height = '500px'
   // imageElement.style.background = 'center cover'
   imageElement.src = film.image;
 
@@ -88,7 +126,7 @@ function createCard(film) {
   const card = createElement("div", "col", [
     createElement("article",  "card h-100", [
       imageElement,
-      createElement("div", "card-body", [
+      createElement("div", "card-body mt-auto flex-grow-0 border-top", [
         createElement("h3", "text-center", [film.title]),
         createElement("h4", "", ["Informations"]),
         createElement("ul", "ps-0 card-text", informationsHtml),
@@ -114,37 +152,24 @@ function createElement(type, cls, children) {
   return elem;
 }
 
-const search = document.getElementById("search");
-search.addEventListener('input', searching);
-
-function searching(event) {
-  const recherche = event.target.value;
-
-  data.films.forEach((film) => {
-    if (film.title.toLowerCase().includes(recherche.toLowerCase())) {
-      film.element.style.display = ""; // affiche 
-    } else {
-      film.element.style.display = "none"; //cache
+function filterBy(films, title) {
+  title = title.toLowerCase();
+  const filteredFilms = [];
+  for (const film of films) {
+    if(film.title.toLowerCase().includes(title)) {
+      filteredFilms.push(film);
     }
-  });
+  }
+ 
+  return filteredFilms;
 }
 
-const sort = document.querySelector('select');
-const alphaOrder = document.querySelectorAll('option')[1];
-
-// alphaOrder.addEventListener('click', sortAlpha);
-
-sort.addEventListener("change", function (e) {
-  console.log(sort.value);
-  sortBy(data.films, sort.value);
-})
-
 function sortBy(arr, key) {
+  if (key == "") return arr; // gestion cas aucun tri selectionné
   const sortedFilms = Array.from(arr).sort((film1, film2) => 
-    film1[key].toString().localeCompare(film2[key], "fr", { numeric: true })
+    sortOrder*film1[key].toString().localeCompare(film2[key], "fr", { numeric: true })
   );
-  console.log(sortedFilms);
-  sortedFilms.forEach((film, index) => film.element.style.order = index);
+  return sortedFilms;
 }
 
 // function sortAlpha() {
@@ -154,9 +179,32 @@ function sortBy(arr, key) {
 //   sortedFilms.forEach((film, index) => {film.element.style.order = index;});
 // }
 
+
+
 function timeToString(minutes) {
   const heures = Math.floor(minutes / 60);
   minutes %= 60;
   if (heures) return `${heures}h${minutes}min`;
   return `${minutes}min`
 }
+
+
+buttonReverse.addEventListener('click', reverse);
+
+function reverse() {
+  sortOrder *= -1;
+  filterAndSort()
+}
+
+const handleIntersect = (entries) => {
+  console.log(entries);
+  if (entries[0].isIntersecting) {
+    displayMore();
+  }
+};
+
+const watcher = document.querySelector(".intersection-watcher");
+
+new IntersectionObserver(handleIntersect, {
+  rootMargin: "200px"
+}).observe(watcher)
